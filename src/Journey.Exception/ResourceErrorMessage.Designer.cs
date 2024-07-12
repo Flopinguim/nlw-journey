@@ -86,5 +86,23 @@ namespace Journey.Exception {
                 return ResourceManager.GetString("StartDateBiggerThenEndDate", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Viagem não encontrada.
+        /// </summary>
+        public static string TripNotFound {
+            get {
+                return ResourceManager.GetString("TripNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Erro desconhecido.
+        /// </summary>
+        public static string UnknownErro {
+            get {
+                return ResourceManager.GetString("UnknownErro", resourceCulture);
+            }
+        }
     }
 }

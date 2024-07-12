@@ -126,4 +126,10 @@
   <data name="StartDateBiggerThenEndDate" xml:space="preserve">
     <value>A viagem deve terminar após a data de início</value>
   </data>
+  <data name="TripNotFound" xml:space="preserve">
+    <value>Viagem não encontrada</value>
+  </data>
+  <data name="UnknownErro" xml:space="preserve">
+    <value>Erro desconhecido</value>
+  </data>
 </root>
